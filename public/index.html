@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AURA — AI Dating & Confidence Coach (MVP)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>💘 AURA</h1>
+      <p class="tag">AI Dating & Connection Coach — MVP (5 free/day)</p>
+    </header>
+
+    <section class="panel">
+      <h2>Coach Style</h2>
+      <select id="mode">
+        <option value="flirty_funny">Flirty & Funny</option>
+        <option value="calm_grounded">Calm & Grounded</option>
+        <option value="charismatic_bold">Charismatic & Bold</option>
+      </select>
+    </section>
+
+    <section class="panel">
+      <h2>Chat Coach</h2>
+      <textarea id="userInput" rows="4" placeholder="Paste a message or describe your situation (e.g., 'They stopped replying...')"></textarea>
+      <button id="sendBtn">Get AI Advice</button>
+      <div id="response"></div>
+      <div id="usage"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Confidence Quest</h2>
+      <div id="questBox"></div>
+      <button id="nextQuest">New Quest</button>
+      <div class="note">
+        <label>Log your result:</label>
+        <textarea id="questNote" rows="3" placeholder="How did it go? What did you learn?"></textarea>
+        <button id="saveNote">Save Note</button>
+      </div>
+      <div id="history"></div>
+    </section>
+
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <h3>Upgrade to AURA Pro</h3>
+        <p>Unlimited AI coaching + advanced tone training. Cancel anytime.</p>
+        <a id="proLink" class="button" target="_blank" rel="noopener">Go Pro</a>
+        <button id="closeModal" class="ghost">Maybe later</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Replace this with your live Stripe Payment Link when ready
+    window.AURA_PRO_LINK = "REPLACE_WITH_STRIPE_PAYMENT_LINK";
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>

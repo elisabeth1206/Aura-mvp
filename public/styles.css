@@ -1,0 +1,20 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#0f0f12;color:#f3f3f6}
+.wrap{max-width:900px;margin:0 auto;padding:24px}
+header h1{margin:0 0 6px 0;font-size:28px}
+.tag{opacity:.8;margin:0 0 16px}
+.panel{background:#15151a;border:1px solid #2a2a33;border-radius:12px;padding:16px;margin:16px 0}
+h2{margin:0 0 12px}
+textarea{width:100%;background:#101016;border:1px solid #2a2a33;border-radius:10px;color:#eaeaf2;padding:12px}
+button,.button{background:#7a5cff;border:0;border-radius:10px;color:white;padding:10px 14px;margin-top:10px;cursor:pointer;text-decoration:none;display:inline-block;text-align:center}
+button:hover,.button:hover{opacity:.9}
+.ghost{background:transparent;border:1px solid #2a2a33;color:#eaeaf2}
+#response{white-space:pre-wrap;background:#101016;border:1px solid #2a2a33;border-radius:10px;padding:12px;margin-top:12px}
+#usage{opacity:.8;margin-top:6px;font-size:14px}
+#questBox{background:#101016;border:1px dashed #3a3a45;border-radius:10px;padding:12px;margin:8px 0}
+.note{margin-top:12px}
+#history{margin-top:12px;font-size:14px;opacity:.9}
+select{background:#101016;border:1px solid #2a2a33;color:#eaeaf2;border-radius:8px;padding:8px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center}
+.hidden{display:none}
+.modal-content{background:#17171c;border:1px solid #2a2a33;border-radius:14px;padding:20px;max-width:420px;width:90%}
+.modal h3{margin:0 0 8px}
